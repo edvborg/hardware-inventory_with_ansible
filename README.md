@@ -2,7 +2,17 @@
 
 create hardware inventory; txt-file or csv
 
-# Assumptions
+## Assumptions
 
 * execete ansible scripts as root
 * ansible directory is /etc/ansible (default in ubuntu)
+
+## Preparations
+
+* copy public key to every host managed by ansible
+** create key
+ ssh-keygen 
+
+
+
+
