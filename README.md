@@ -9,36 +9,49 @@ create hardware inventory; txt-file or csv
 
 ## Preparations
 
-* install ansible
+### install ansible
  
  sudo apt-get install ansible
 
-* copy public key to every host managed by ansible
 
-* create key
+### create ssh keys for ssh login without password
 
  ssh-keygen    < no passphrase>
 
-    creates private and public key in ~/.ssh/ with deafult names (id_rsa and id_rsa.pub)
-
-* copy public key to remote host
+ creates private and public key in ~/.ssh/ with deafult names (id_rsa and id_rsa.pub)
  
+### copy public key to every host managed by ansible
+
  ssh-copy-id root@< hostname >
 
-* test ssh connection with rsa keys:
+### test ssh connection with rsa keys:
 
  ssh root@hostname
 
  you are logged in without password;
 
- exit to your ansible host
+ return with 'exit' to your ansible host
 
-* change to /etc/ansible
+##
+
+### change to /etc/ansible
  
 
-* clone repo
+### clone repo
 
- 
+
+### edit inventory 
+
+
+### create symbolic link to your inventory
+
+
+### edit playbook
+
+
+### execute ansible script
+
+
 
 
 
