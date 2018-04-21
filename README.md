@@ -9,9 +9,18 @@ create hardware inventory; txt-file or csv
 
 ## Preparations
 
+* install ansible
+ 
+ sudo apt-get install ansible
+
 * copy public key to every host managed by ansible
+
 ** create key
  ssh-keygen 
+ < no passphrase>
+
+creates private and public key in ~/.ssh/
+
 
 
 
