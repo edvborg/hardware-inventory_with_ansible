@@ -34,7 +34,7 @@ create hardware inventory; txt-file or csv
 
 ##
 
-### change to /etc/ansible
+### change  directory to /etc/ansible
  
 
 ### clone repo
@@ -46,11 +46,18 @@ create hardware inventory; txt-file or csv
 ### create symbolic link to your inventory
 
 
-### edit playbook
+### edit vars in playbook
 
 
 ### execute ansible script
 
+
+## Result
+
+cat borg_hardwarereports/report_O2-10-PC01.csv 
+
+Hostname;Hersteller;Bezeichnung;Seriennummer;Netzwerk-IP;Netzwerk-MAC;Festplatte;Arbeitspeicher
+O2-10-PC01;LENOVO;ThinkCentre M83;S4N12557;192.168.140.200;6c:0b:84:0b:ed:ec;119.24 GB;3833
 
 
 
