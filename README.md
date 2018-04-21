@@ -54,13 +54,9 @@ create hardware inventory; txt-file or csv
 
 ## Result
 
-<<<<<<< HEAD
-'''cat borg_hardwarereports/report_O2-10-PC01.csv 
+'''bash
+cat borg_hardwarereports/report_O2-10-PC01.csv 
 
-Hostname;Hersteller;Bezeichnung;Seriennummer;Netzwerk-IP;Netzwerk-MAC;Festplatte;Arbeitspeicher
-
-=======
-cat borg_hardwarereports/report_O2-10-PC01.csv : 
 
 Hostname;Hersteller;Bezeichnung;Seriennummer;Netzwerk-IP;Netzwerk-MAC;Festplatte;Arbeitspeicher
 
