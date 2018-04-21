@@ -1,0 +1,28 @@
+###
+###
+###
+
+[windowspcs:children]
+inf3pcs
+winpcs-konf
+winpcs-test
+winpcs-lehrer
+
+[inf3pcs]
+inf-3-[01:15]
+inf-3-le
+
+[winpcs-konf]
+O1-29-PC01
+O1-29-PC02
+
+[winpcs-test]
+#O2-10-PCT1
+O2-10-PCV5
+Win7-64-Master
+
+[winpcs-lehrer]
+O2-06-PC01 # Kustodiat BU
+O2-07-PC01 # Saal BU
+O2-24-PC01 # Musikgym Koordinator
+
