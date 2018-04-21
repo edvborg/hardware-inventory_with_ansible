@@ -16,9 +16,9 @@ create hardware inventory; txt-file or csv
 
 ### create ssh keys for ssh login without password
 
- ssh-keygen    < no passphrase>
+ ssh-keygen  ##  < no passphrase>
 
- creates private and public key in ~/.ssh/ with deafult names (id_rsa and id_rsa.pub)
+ creates private and public key in ~/.ssh/ with default names (id_rsa and id_rsa.pub)
  
 ### copy public key to every host managed by ansible
 
@@ -26,7 +26,7 @@ create hardware inventory; txt-file or csv
 
 ### test ssh connection with rsa keys:
 
- ssh root@hostname
+ ssh root@< hostname >
 
  you are logged in without password;
 
