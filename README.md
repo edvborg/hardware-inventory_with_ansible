@@ -19,20 +19,26 @@ create hardware inventory; txt-file or csv
 
  ssh-keygen    < no passphrase>
 
-: creates private and public key in ~/.ssh/ with deafult names (id_rsa and id_rsa.pub)
+    creates private and public key in ~/.ssh/ with deafult names (id_rsa and id_rsa.pub)
 
 * copy public key to remote host
  
- ssh-copy-id root@<hostname> 
+ ssh-copy-id root@< hostname >
 
 * test ssh connection with rsa keys:
 
- ssh root@<hostname>
+ ssh root@hostname
 
  you are logged in without password;
 
  exit to your ansible host
 
+* change to /etc/ansible
+ 
+
+* clone repo
+
+ 
 
 
 
