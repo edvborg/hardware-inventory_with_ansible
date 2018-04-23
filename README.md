@@ -4,7 +4,7 @@ create hardware inventory; txt-file or csv
 
 ## Assumptions
 
-* execete ansible scripts as root
+* execute ansible scripts as root
 * ansible directory is /etc/ansible (default in ubuntu)
 
 ## Preparations
@@ -54,7 +54,6 @@ create hardware inventory; txt-file or csv
 
 ## Result
 
-'''bash
 cat borg_hardwarereports/report_O2-10-PC01.csv 
 
 
